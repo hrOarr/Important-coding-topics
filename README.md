@@ -15,7 +15,7 @@ A balanced binary tree, also referred to as a height-balanced binary tree, is de
 A linked list data structure includes a series of connected nodes.Here, each node store the data and the address of the next node.
 
 ### applications:
--Dynamic memory allocation
--Implemented in stack and queue
--In undo functionality of softwares
--Hash tables, Graphs
+* Dynamic memory allocation
+* Implemented in stack and queue
+* In undo functionality of softwares
+* Hash tables, Graphs
