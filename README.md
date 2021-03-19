@@ -19,3 +19,24 @@ A linked list data structure includes a series of connected nodes.Here, each nod
 * Implemented in stack and queue
 * In undo functionality of softwares
 * Hash tables, Graphs
+
+#### HashTable collision can be solved by: -
+* chaining or closed-addressing: this technique is generally used when collision occurs.
+* open-addressing: this contains linear probing,quadratic probing,double hashing etc.
+
+## Pointer
+### Dynamic memory allocation
+* To allocate memory dynamically, library functions are malloc(), calloc(), realloc() and free() are used.
+*These functions are defined in the <stdlib.h> header file.
+
+* The malloc() function reserves a block of memory of the specified number of bytes. It returns a pointer, but it returns NULL pointer when failed.
+
+* The malloc() function allocates memory and leaves the memory uninitialized, whereas the calloc() function allocates memory and initializes all bits to zero.
+
+* If the dynamically allocated memory is insufficient or more than required, you can change the size of previously allocated memory using the realloc() function.
+
+### importance of pointer
+* Pointers provide a way to return more than one value to the functions.
+* Reduces the storage space and complexity of the program.
+* Reduces the execution time of the program.
+* Provides an alternate way to access array elements.
